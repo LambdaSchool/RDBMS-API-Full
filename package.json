@@ -1,0 +1,28 @@
+{
+  "name": "RDBMS-API-Full",
+  "version": "1.0.0",
+  "description": "- Databases\r - Relational Databases\r - Knex migrations.\r - Seeding data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cembreyfarquhar/RDBMS-API-Full.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cembreyfarquhar/RDBMS-API-Full/issues"
+  },
+  "homepage": "https://github.com/cembreyfarquhar/RDBMS-API-Full#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
