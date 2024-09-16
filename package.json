@@ -1,0 +1,28 @@
+{
+  "name": "rdbms-api-full",
+  "description": "- Databases\r - Relational Databases\r - Query Builder - Knex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raaayshell/RDBMS-API-Full.git"
+  },
+  "author": "Rachelle De Jesus Pestanas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raaayshell/RDBMS-API-Full/issues"
+  },
+  "homepage": "https://github.com/raaayshell/RDBMS-API-Full#readme"
+}
