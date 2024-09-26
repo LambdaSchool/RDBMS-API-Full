@@ -1,0 +1,29 @@
+## Base Project:
+
+
+Build an API that persists data to SQLite3.
+
+Use knex migrations to create the following database tables:
+
+- [] Users
+
+- [] Posts
+
+- [] Tags
+
+## Establish a many to many relationship between Posts and Tags. The same tag can be added to different posts and a post can have multiple tags. Add any tables necessary to accomplish this.
+
+## Seed test data into your tables using knex.
+
+## Implement the following endpoints::
+
+
+- [ ] Users
+- [ ] Posts
+- [ ] Tags
+
+## Extra Credit
+
+
+- add a [GET] /posts/:id/tags endpoint that returns all tags for the post with the specified id.
+- have the post returned by the [GET] /posts/:id endpoint include the user name(not the id) and the tags associated with the post.
